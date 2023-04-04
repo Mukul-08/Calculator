@@ -1,10 +1,8 @@
 .cal{
-    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
-    height: 600px;
-    background-color: #f5f0e1;
+    /* width: 400px;
+    height: 600px; */
     padding-left: 20px;
     border-radius: 50px;
     text-align: center;
@@ -18,8 +16,8 @@ body{
 }
 
 button{
-    margin-top: 30px;
-    margin-right: 30px;
+    margin-top: 3vh;
+    margin-right: 3vw;
     height: 50px;
     width: 50px;
     border-radius: 30px;
@@ -44,9 +42,9 @@ button:hover{
     background-color: #1e3d59;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 30pvh;
     color: antiquewhite;
     font-family: 'Abril Fatface', cursive;
     text-align: right;
@@ -76,7 +74,7 @@ button:hover{
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 2000px) {
     body{
 
         background-color: #f5f0e1;
@@ -92,8 +90,11 @@ button:hover{
       
          /* width:100vw; */
          /* height: 10vh; */
-         margin-top: 80px;
-         margin-bottom: 0px;
+         /* margin-top: 10vh; */
+         margin-top: 15vh;
+         /* margin-bottom: 5vh; */
+         height: 100vh;
+         width: 90vw;
         right: 0px;
         left: 0px;
         border-radius: 0%;
@@ -104,33 +105,37 @@ button:hover{
         background-color: #1e3d59;
     } */
     button{
-        width: 60px;
-        margin-right: 3px;
-        font-size: 20px;
+        width: 15vw;
+        margin-right: 2vw;
+        font-size: 5vh;
         background-color: #1e3d59;
         border-color: #f5f0e1;
+        height: 8vh;
     }
     button:hover{
         background-color: #1e3d59;
         color: white;
     }
     
- 
-    .ans{
-        width: 300px;
-    }
 
     .ce{
         background-color: #ff6e40;
+        width: 30vw;
+        height: 8vh;
     }
     .ans{
+        width: 80vw;
         background-color: #ff6e40;
+        height: 8vh;
+        font-size: 5vh;
     }
     .eq{
         background-color: #ff6e40;
+        width: 32vw;
+        height: 8vh;
     }
     .his{
-        width: 300px;
+        width: 80vw;
         background-color: #ff6e40;
     }
 

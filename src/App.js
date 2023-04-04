@@ -18,10 +18,12 @@ function App(){
    }
    
    const cal = (e) => {
-   let o = res[res.length-1]
-    console.log(o);
-     if(o === "+" || o === "/" || o === "-" || o ==="*"){
-      setres(res.slice(0,-1));
+   let o = res[res.length-1];
+   let oo = res[0];
+
+     if(o === "+" || o === "/" || o === "-" || o ==="*" || oo === "+" || oo === "/" || oo === "-" || oo ==="*"){
+      setres("");
+      sethis("");
      }
      else{
       sethis(res);
@@ -40,7 +42,7 @@ function App(){
     <br></br>
 
     <button type="button" className="ce" name="" onClick={clear} id="ce">CE</button>
-    <button type="button" name="c"onClick={backspace} id="c">c</button>
+    <button type="button" name="c"onClick={backspace} id="c">C</button>
     <button type="button" name="/" onClick={handclick} id="/">/</button>
       <br></br>
 
