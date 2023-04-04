@@ -1,0 +1,137 @@
+.cal{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 600px;
+    background-color: #f5f0e1;
+    padding-left: 20px;
+    border-radius: 50px;
+    text-align: center;
+
+    /* display:flex; */
+
+}
+
+body{
+    background-color: #f5f0e1;
+}
+
+button{
+    margin-top: 30px;
+    margin-right: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: #ff6e40;
+    border-color: #f5f0e1;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+    color: #f5f0e1;
+}
+
+button:hover{
+    background-color: #ffc13b;
+    color: white;
+}
+
+.ans{
+ 
+    height: 50px;
+    width: 340px;
+    background-color: #1e3d59;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: antiquewhite;
+    font-family: 'Abril Fatface', cursive;
+    text-align: right;
+    
+}
+
+.num{
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 350px;
+    /* background-color: #1e3d59; */
+    text-align: center;
+}
+
+.ce{
+    width: 130px;
+}
+.eq{
+    width: 130px;
+}
+.his{
+    width: 390px;
+}
+.his:hover{
+    background-color: #ff6e40;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    body{
+
+        background-color: #f5f0e1;
+    }
+
+    .cal{
+        /* display:flex; */
+        /* background-color: #f5f0e1;
+        position:absolute;
+         width: 50%;
+         margin-right: 0px; */
+         text-align: center;
+      
+         /* width:100vw; */
+         /* height: 10vh; */
+         margin-top: 80px;
+         margin-bottom: 0px;
+        right: 0px;
+        left: 0px;
+        border-radius: 0%;
+    }
+
+    /* .his{
+        width: 80vw; 
+        background-color: #1e3d59;
+    } */
+    button{
+        width: 60px;
+        margin-right: 3px;
+        font-size: 20px;
+        background-color: #1e3d59;
+        border-color: #f5f0e1;
+    }
+    button:hover{
+        background-color: #1e3d59;
+        color: white;
+    }
+    
+ 
+    .ans{
+        width: 300px;
+    }
+
+    .ce{
+        background-color: #ff6e40;
+    }
+    .ans{
+        background-color: #ff6e40;
+    }
+    .eq{
+        background-color: #ff6e40;
+    }
+    .his{
+        width: 300px;
+        background-color: #ff6e40;
+    }
+
+}
